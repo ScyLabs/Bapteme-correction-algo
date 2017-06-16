@@ -24,5 +24,24 @@ else {
  * Retourner la somme des nombres contenus dans cet array
  */
 function sum(arr) {
+  // Variable qui va venir accumuler les sommes
+  var result = 0;
 
+  // Pour chaque élément du tableau
+  for (var index in arr) {
+    var item = arr[index];
+
+    // Si c'est un nombre, on additionne
+    if (typeof item === 'number') {
+      result += item;
+    }
+
+    // Si c'est un array, on additionne en utilisant sum()
+    else if (typeof item === 'object') {
+      result += sum(item);
+    }
+  }
+
+  // On retourne la somme
+  return result;
 }

@@ -16,8 +16,21 @@ else {
  * Exo2
  *
  * int est un entier
- * Retourner "true" si c'est pair, "false" si c'est impair
+ * Retourner true si c'est pair, false si c'est impair
  */
 function isEven(int) {
+  /*
+  if (int % 2 === 0) {
+    // Pair
+    return true;
+  }
+  else {
+    // Impair
+    return false;
+  }
+  */
 
+  // On peut directement retourner le test
+  // Puisqu'un test retourne un booléen
+  return int % 2 === 0;
 }
