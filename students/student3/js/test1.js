@@ -23,5 +23,6 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
+  // Bien joué ;) Par contre pense à l'indentation
 return int*2;
 }

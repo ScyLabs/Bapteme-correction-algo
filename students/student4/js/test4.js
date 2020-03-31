@@ -24,5 +24,31 @@ else {
  * Retourner la chaine la plus longue de l'array
  */
 function getLongestString(arr) {
+  // Pas eu le temps de faire cet exo ou pas trouvé? :( Pas grave tkt , ca sera pour la prochaîne fois , je te met la correction en dessous
+  // Je définis la string la plus grande
+  var strMax = '';
 
+  // Sur chaque élément
+  for (var index in arr) {
+    var str = arr[index];
+
+    // On vérifie que c'est pas une chaine de caractère
+    if (typeof str !== 'string') {
+      // Si je veux passer à l'itération suivante
+      continue;
+    }
+
+    // Puis on regarde si c'est la plus grande
+    if (str.length > strMax.length) {
+      strMax = str;
+    }
+  }
+
+  // Si l'array est vide, on renvoie false
+  if (arr.length === 0) {
+    return false;
+  }
+
+  // On retourne la plus grande
+  return strMax;
 }

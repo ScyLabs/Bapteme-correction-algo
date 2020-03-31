@@ -24,6 +24,13 @@ else {
  */
 function doubleInt(int) {
 
-   var rep = int * 2;
-   return rep;
+    /* 
+      Le résultat est bon.
+      Cependant , plutôt que d'initialiser une variable ,
+      tu peux directement retourner le résultat de de la multiplication.active
+      return int *2;
+
+    */
+    var rep = int * 2;
+    return rep;
 }

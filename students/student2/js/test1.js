@@ -23,5 +23,6 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
+  // Nickel
   return int * 2;
 }

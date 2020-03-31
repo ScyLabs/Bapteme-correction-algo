@@ -19,6 +19,14 @@ else {
  * Retourner "true" si c'est pair, "false" si c'est impair
  */
 function isEven(int) {
+  /* 
+      Le résultat est bon.
+      Cependant , la fonction retournant un boolean , 
+      /!\ Pense à utiliser === plutôt que == , === est strictement = (Test le typeof et la valeur)
+      tu peux simplifier en renvoyant directement le résultat du test.
+      return int %2 === 0
+      Nb : Encore une fois , pense à indenter ;)
+   */
 if (int%2==0) {
     return true
 }else{

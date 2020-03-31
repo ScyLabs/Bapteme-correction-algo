@@ -1,24 +1,9 @@
 # Challenge : Parcours du combattant Algo
 
-## Objectif
+## Correction
 
-Voici un nouveau parcours en 4 étapes !
+Je t'ai mis le correctif du challenge dans chaque fichier en commentaire ;) Va y jeter un coup d'oeil.
 
-## Instructions
+Il ressort selon moi, un petit problème d'indentation, mais ca se corrige facilement je m'inquiète pas ;)
 
-Directement dans chaque fichier JS :smiley:
-
-Chaque fichier JS comporte un test affiché "Yeaaah" si votre fonction marche bien, ou "Nope" si le résultat renvoyé n'est pas bon.
-
-## Bonus
-
-L'exo 5 est un petit défi sympathique :+1: 
-
-## Whaaat ?!
-
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/lastIndexOf
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/continue
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/L_op%C3%A9rateur_typeof
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions
+Si ce n'est l'exercice 5, tu as réussi à cerner plus ou moins les solutions, cependant tu devrais je penses revoir l'exercice 3 4 et 5 et comparé ton code à la correction

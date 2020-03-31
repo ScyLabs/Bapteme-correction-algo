@@ -24,6 +24,13 @@ else {
  * Retourner la chaine la plus longue de l'array
  */
 function getLongestString(arr) {
+  /*
+    Pas mal et fonctionnel.
+    Un code court, utilisation de la fonction reduce,
+    Utilisation du ternaire.
+    Seul point : "Tu n'étais pas sensé convertir les nombres mais prendre en compte que les strings ;)"
+  */
+
   if (arr.length === 0) return false;
   
   var longuest = arr.reduce(function(a, b) {

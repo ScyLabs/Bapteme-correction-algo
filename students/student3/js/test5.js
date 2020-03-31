@@ -15,8 +15,6 @@ else {
   container.textContent = 'Nope';
   container.className = 'error';
 }
-
-
 /*
  * Exo5
  *
@@ -25,6 +23,34 @@ else {
  */
 
 function sum(arr) {
+  /* 
+    Indentation :(
+    Faire un test vide n'est pas une solution viable. tu aurais du faire un continue; dans ton test.
+    Tu as fait un for dans un for dans un for. Mais comment aurais tu fait si ton tableau avec un niveau supérieur ? 
+    Dans ce cas là , tu doit utiliser une fonction réccursive (c'est à dire une fonction qui s'appelle elle même.)
+    Regarde ci-dessous je te met un code qui simplifie vachement.
+
+    // Variable qui va venir accumuler les sommes
+    var result = 0;
+
+    // Pour chaque élément du tableau
+    for (var index in arr) {
+      var item = arr[index];
+
+      // Si c'est un nombre, on additionne
+      if (typeof item === 'number') {
+        result += item;
+      }
+
+      // Si c'est un array, on additionne en utilisant sum()
+      else if (typeof item === 'object') {
+        result += sum(item);
+      }
+    }
+
+    // On retourne la somme
+    return result;
+  */
 var sum1=0;
 for (i=0; i<arr.length; i++){
     if (typeof(arr[i])=="number"){

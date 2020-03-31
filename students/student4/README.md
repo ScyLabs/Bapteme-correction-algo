@@ -1,24 +1,12 @@
 # Challenge : Parcours du combattant Algo
 
-## Objectif
+## Correction
 
-Voici un nouveau parcours en 4 étapes !
+Je t'ai mis le correctif du challenge dans chaque fichier en commentaire ;) Va y jeter un coup d'oeil.
 
-## Instructions
 
-Directement dans chaque fichier JS :smiley:
+Tu as bien compris dans l'exo 2 que les tests renvoyaient des bool et que du coup tu n'avais pas a faire de test supplémentaire, c'est très bien ;) La prochaîne fois , pense y tu n'a pas besoin de mettre le résultat dans une variable (mais c'est un détail.)
 
-Chaque fichier JS comporte un test affiché "Yeaaah" si votre fonction marche bien, ou "Nope" si le résultat renvoyé n'est pas bon.
+Tu n'as vraisemblalement pas trouvé la solution de l'exercice 3, je penses qu'il faudrait que tu revois l'explode des chaîne de carractères , regarde la correction ca pourras t'aider a comprendre. Ne t'en fais pas, la prochaîne fois tu trouvera la solution de toi même :'D
 
-## Bonus
-
-L'exo 5 est un petit défi sympathique :+1: 
-
-## Whaaat ?!
-
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/lastIndexOf
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/continue
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/L_op%C3%A9rateur_typeof
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions
+Tu n'as pas fait l'exercice 4 et 5 ? Manque de temps ? Ou pas réussi ? Dans tous les cas , tu as la correction. N'hésite pas à y jeter un oeil pour compprendre comment tu aurais pu faire.

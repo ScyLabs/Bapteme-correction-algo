@@ -23,6 +23,11 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
+  /* 
+    Ca fonctionne, mais tu peux aller plus droit au but et retourner directement le résultat de la multiplication.active
+    return int * 2;
+    PS : Pense à supprimer les console.log() ;)
+  */
     var int = int * 2;
      console.log(int);
     // console.log(typeof int);

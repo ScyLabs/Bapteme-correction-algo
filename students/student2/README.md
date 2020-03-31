@@ -1,24 +1,11 @@
 # Challenge : Parcours du combattant Algo
 
-## Objectif
+## Correction
 
-Voici un nouveau parcours en 4 étapes !
 
-## Instructions
+Je t'ai mis tes corrections dans des commentaires dans chaque exercice. Va y jeter un oeil ;)
+    - Exo 1 ,2 ,3 Nickel.
+    - Exo 4 : Code court , concis , utilisation du ternaire. Très interessant , t'avais juste pas besoin de convertir les chiffre :'D 
+    - Exo 5: Fonctionne , mais tu t'est vcachement compliqué la vie. Tu aurais du passer par une fonction récursive, tu as ajouté une fonction tu n'en avait pas besoin.
 
-Directement dans chaque fichier JS :smiley:
-
-Chaque fichier JS comporte un test affiché "Yeaaah" si votre fonction marche bien, ou "Nope" si le résultat renvoyé n'est pas bon.
-
-## Bonus
-
-L'exo 5 est un petit défi sympathique :+1: 
-
-## Whaaat ?!
-
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/lastIndexOf
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/continue
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/L_op%C3%A9rateur_typeof
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions
+Continue comme ça ;).

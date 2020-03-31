@@ -25,6 +25,12 @@ else {
  * Par exemple index.html => html
  */
 function getExtension(str) {
+  /*
+    Fonctionne mais tu aurais pu simplement faire 
+    extension =  getExtension[getExtension.length -1]
+    après ton test de length plutôt q'un slice négatif
+    De plus pas besoin de mettre ton séparator dans une variable.
+   */ 
   var separator = '.';
   var getExtension = str.split(separator);
   var extension = getExtension.slice(-1)[0];

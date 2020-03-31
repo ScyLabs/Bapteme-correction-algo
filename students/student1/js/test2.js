@@ -20,6 +20,12 @@ else {
  */
 function isEven(int) {
 
+   /* 
+      Le résultat est bon.
+      Cependant , la fonction retournant un boolean , 
+      tu peux simplifier en renvoyant directement le résultat du test.
+      return int %2 === 0
+   */
    if (int%2 === 0) {
 
       return true;

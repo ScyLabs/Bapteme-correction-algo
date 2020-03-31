@@ -1,24 +1,9 @@
 # Challenge : Parcours du combattant Algo
 
-## Objectif
+## Correction
 
-Voici un nouveau parcours en 4 étapes !
-
-## Instructions
-
-Directement dans chaque fichier JS :smiley:
-
-Chaque fichier JS comporte un test affiché "Yeaaah" si votre fonction marche bien, ou "Nope" si le résultat renvoyé n'est pas bon.
-
-## Bonus
-
-L'exo 5 est un petit défi sympathique :+1: 
-
-## Whaaat ?!
-
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/lastIndexOf
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/continue
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/L_op%C3%A9rateur_typeof
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions
+Je t'ai mis tes corrections dans des commentaires dans chaque exercice. Va y jeter un oeil ;)
+ - Pour les exercices 1 2 3 le résultat est là y a juste 2 bricoles à paufiner , mais je t'ai détaillé ca dans les commentaires.
+ - Concernant l'exercice 4 , c'est dommage tu as inversé ton test  pour savoir si le tableau est vide. et tu ne vérifie pas si la variable que tu parcours est bien une chaîne de carractère (ca peut t'amener à vérifier si un tableau est plus court qu'une chaîne de caractère)
+ - Pour l'exercice 5 , ton tableau n'est pas entièrement parcourus , tu n'ajoute donc pas les tableaux qui sont dans le tableau (multidimensionel). Ce n'est pas grave , lis bien la correction , et tu y arriveras la prochaîne fois ;)
+ 
